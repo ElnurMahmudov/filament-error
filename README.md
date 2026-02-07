@@ -22,3 +22,12 @@ Terminalda layihənin kök qovluğunda aşağıdakı əmri işə salın:
 
 ```bash
 php artisan vendor:publish --force --tag=livewire:assets
+```
+
+## Əlavə tövsiyələr
+- Əgər problem davam edirsə, Laravel cache-lərini təmizləyin:
+  ````bash
+  php artisan route:clear
+  php artisan config:clear
+  php artisan cache:clear
+  php artisan view:clear
